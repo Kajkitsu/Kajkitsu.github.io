@@ -205,6 +205,43 @@
 					</div>
 				</section>
 				<section>
+					<h3>Przykładowy test jednostkowy w Python.unittest</h3>
+					<small>
+						https://docs.python.org/3/library/unittest.html#distinguishing-test-iterations-using-subtests
+						https://docs.python.org/3/library/unittest.html#
+					</small>
+					<pre style="font-size: 14px" data-id="code-animation">
+						<code data-trim><script type="text/template">
+	import unittest
+	from extractor import Extractor
+
+	class MyTestCase(unittest.TestCase):
+		def test_get_pages_as_range_1(self):
+			# given
+			publisher_value = "Moscow : Russian State Social University, 2019"
+			details_value = "S. 103-111 - summ., tab. - Bibliogr. 24 poz."
+			# then
+			extractor = Extractor(publisher_value, details_value)
+			# expect
+			self.assertEqual(extractor.get_pages_in_range(), "103-111")
+
+		def test_get_pages_as_range_2(self):
+			# given
+			publisher_value = "Moscow : Russian State Social University, 2019"
+			details_value = "S. 2137-2137 - summ., tab. - Bibliogr. 24 poz."
+			# then
+			extractor = Extractor(publisher_value, details_value)
+			# expect
+			self.assertEqual(extractor.get_pages_in_range(), "2137-2137")
+
+	if __name__ == '__main__':
+		unittest.main()
+
+						</script>
+						</code>
+					</pre>
+				</section>
+				<section>
 					<h3>Przykładowy test jednostkowy w JUnit</h3>
 					<pre style="font-size: 14px;" data-id="code-animation"><code data-trim data-line-numbers="23-33"><script type="text/template">
     public static final int DETAIL_INDEX = 1;
