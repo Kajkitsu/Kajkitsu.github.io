@@ -270,6 +270,7 @@
 						wget https://www.antlr.org/download/antlr-4.11.1-complete.jar
 						nano example.cpp
 						java -jar ./antlr-4.11.1-complete.jar CPP14Lexer.g4 CPP14Parser.g4
+						javac -cp ./antlr-4.11.1-complete.jar *.java
 						java -cp .:antlr-4.11.1-complete.jar org.antlr.v4.gui.TestRig CPP14 translationUnit -tree -gui example.cpp
 					</code></pre>
 
