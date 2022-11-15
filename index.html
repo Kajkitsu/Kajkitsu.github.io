@@ -211,32 +211,31 @@
 
 					</small>
 					<pre style="font-size: 14px" data-id="code-animation">
-						<code class="hljs python" data-trim data-line-numbers="5-12|14-21"><script type="text/template">
-	import unittest
-	from extractor import Extractor
-
-	class MyTestCase(unittest.TestCase):
-		def test_get_pages_as_range_1(self):
-			# given
-			publisher_value = "Moscow : Russian State Social University, 2019"
-			details_value = "s. 103-111 - summ., tab. - Bibliogr. 24 poz."
-			# then
-			extractor = Extractor(publisher_value, details_value)
-			# expect
-			self.assertEqual(extractor.get_pages_in_range(), "103-111")
-
-		def test_get_pages_as_range_2(self):
-			# given
-			publisher_value = "Moscow : Russian State Social University, 2019"
-			details_value = "s. 1-2137 - summ., tab. - Bibliogr. 24 poz."
-			# then
-			extractor = Extractor(publisher_value, details_value)
-			# expect
-			self.assertEqual(extractor.get_pages_in_range(), "1-2137")
-
-	if __name__ == '__main__':
-		unittest.main()
-
+						<code class="hljs python" data-trim data-line-numbers="7-8|10-20|12-20"><script type="text/template">
+							import csv
+							import unittest
+							
+							from extractor import Extractor
+							
+							class MyTestCase(unittest.TestCase):
+								def setUp(self) -> None:
+									self.csvreader = csv.reader(open("details.csv", 'r', encoding="utf-8"))
+							
+								def test_get_pages_as_range(self):
+									for row in self.csvreader:
+										with self.subTest():
+											#given
+											publisher_value = row[0]
+											details_value = row[1]
+											pages_in_range_value = row[5]
+											#then
+											extractor = Extractor(publisher_value, details_value)
+											#expect
+											self.assertEqual(extractor.get_pages_in_range(), pages_in_range_value)
+							
+							if __name__ == '__main__':
+								unittest.main()
+							
 						</script>
 						</code>
 					</pre>
