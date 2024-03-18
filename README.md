@@ -12,5 +12,10 @@ ppor. mgr inż. Norbert Waszkowiak
 ## Przedmioty WOLI
 [Programowanie obiektowe](https://kajkitsu.github.io/po/)
 
+# Dodatkowe
+[GIT: Czyli jak nie narobić 💩 w repozytorium](https://kajkitsu.github.io/git/)
+
+[Programowanie obiektowe w Pythonie](https://kajkitsu.github.io/po_python_speed/)
+
 ## _
 *"Wymagajcie od siebie choćby inni od was nie wymagali."*
