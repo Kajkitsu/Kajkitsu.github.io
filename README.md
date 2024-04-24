@@ -8,6 +8,7 @@ ppor. mgr inż. Norbert Waszkowiak
 
 [Metody i narzędzia generowania kodu wykonywalnego](https://kajkitsu.github.io/mng/)
 
+[Programowanie w językach funkcyjnych](https://kajkitsu.github.io/pjf/)
 
 ## Przedmioty WOLI
 [Programowanie obiektowe](https://kajkitsu.github.io/po/)
