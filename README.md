@@ -18,5 +18,7 @@ ppor. mgr inż. Norbert Waszkowiak
 
 [Programowanie obiektowe w Pythonie](https://kajkitsu.github.io/po_python_speed/)
 
+[Wstęp do algorytmiki: Wskaźniki](https://kajkitsu.github.io/wda_wskazniki)
+
 ## _
 *"Wymagajcie od siebie choćby inni od was nie wymagali."*
