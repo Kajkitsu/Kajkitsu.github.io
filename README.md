@@ -13,7 +13,7 @@ ppor. mgr inż. Norbert Waszkowiak
 ## Przedmioty WOLI
 [Programowanie obiektowe](https://kajkitsu.github.io/po/)
 
-[Programistyczny Projekt Zespołowy](https://kajkitsu.github.io/ppz/)
+[Programistyczny projekt zespołowy](https://kajkitsu.github.io/ppz/)
 
 # Dodatkowe
 [GIT: Czyli jak nie narobić 💩 w repozytorium](https://kajkitsu.github.io/git/)
