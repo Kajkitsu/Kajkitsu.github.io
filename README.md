@@ -15,7 +15,7 @@ ppor. mgr inż. Norbert Waszkowiak
 
 [Programistyczny projekt zespołowy](https://kajkitsu.github.io/ppz/)
 
-[Arkusze kalkulacyjne](kajkitsu.github.io/maturaarkusze)
+[Arkusze kalkulacyjne](https://kajkitsu.github.io/maturaarkusze/)
 
 # Dodatkowe
 [GIT: Czyli jak nie narobić 💩 w repozytorium](https://kajkitsu.github.io/git/)
