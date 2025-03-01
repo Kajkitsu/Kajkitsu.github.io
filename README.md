@@ -1,7 +1,7 @@
 # Norbert Waszkowiak
 
 ## O mnie
-ppor. mgr inż. Norbert Waszkowiak
+por. mgr inż. Norbert Waszkowiak
 
 ## WAT
 [Języki i techniki programowania](https://kajkitsu.github.io/jtp/)
